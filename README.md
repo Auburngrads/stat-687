@@ -1,4 +1,4 @@
-## Welcome to STAT 687 Math of Reliability I
+## Welcome!
 
 ## Course Time and Location
 - MTWF 1500-1600 Bldg. 646 Rm. 216
