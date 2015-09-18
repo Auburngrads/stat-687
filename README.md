@@ -5,7 +5,7 @@
 
 ## Instructor and Office
 - Maj Jason Freels, Bldg. 640, Rm. 105A
-- Email: <jason.freels@afit.edu>
+- Email: __jason.freels@afit.edu__
 - Phone: 255-3636 x4676
 - Cell: (937) 430-6619
 
@@ -26,9 +26,7 @@
 ## Homework Assignments
 - Homework is assigned to help you learn the material.  If you don't do the assignments, you won't do well in the course.  You're encouraged to work together on the homework assignments, but everyone must complete and turn in their own work.  You won't learn much from copying someone's homework set, so don't do it.  You may use any other available resource to complete the assignments, however you must cite them.  Homework will be graded on completeness, (i.e. full credit will be given when a "complete" attempt to each problem is made) with one caveat, see __Exams__.  Solutions will be posted after the assignments are turned in.  Questions to the instructor, both in class and during office hours, are welcomed and encouraged.
 
-> __HW #0:__ Your first homework assignment is to install and test the R/RStudio tool-chain.\
-$1^{st}$ Visit <https://afit.shinyapps.io/R-Installation/R-Installation.Rmd> and follow the steps.\
-$2^{nd}$ Visit <https://afit.shinyapps.io/R-Installation/R-Installation.Rmd> to get familiar with R
+> __HW #0:__ In preparation for the course [__follow these steps__](https://afit.shinyapps.io/R-Installation/R-Installation.Rmd) to install and test the R/RStudio tool-chain
 
 ## Exams
 - I've chosen to modify the standard exam process in a way that I believe is (1) fair to you and (2) easy to grade.  After I receive your completed homework assignments and provide the solutions, I'll choose 3-4 exercises from the homework set to serve as exam questions.  These selected exercises will be evaluated more rigorously than the others and grade will serve as your exam score.  A comprehensive final exam take-home will be given during the final class meeting (due date TBD)
