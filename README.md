@@ -1,7 +1,7 @@
 ## Welcome to STAT 687 Math of Reliability I
 
 ## Course Time and Location
-- MTWF 1500-1600 Bldg. 641 Rm. 228
+- MTWF 1500-1600 Bldg. 646 Rm. 216
 
 ## Instructor and Office
 - Maj Jason Freels, Bldg. 640, Rm. 105A
