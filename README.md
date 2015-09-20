@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Welcome!
 
 ## Course Time and Location
@@ -60,23 +59,23 @@
 - (0.80 - 0.77]: C
 
 ## Approximate Course Outline
-- __Chapter  1:__ Reliability Concepts and Reliability Data (Week 1)
-- __Chapter  2:__ Models, Censoring and Likelihood for Time-to-Failure Data (Week 2)
-- __Chapter  3:__ Non Parametric Estimation (Week 2 - 3)
-- __Chapter  4:__ Failure-time Distributions (Week 4)
-- __Chapter  5:__ Failure-time Distributions (Week 4)
-- __Chapter  6:__ Probability Plotting and Choosing a Failure-Time Distribution (Week 4 - 5)
-- __Chapter  7:__ Parametric Likelihood Concepts: Exponential Distribution (Week 5)
-- __Chapter  8:__ Maximum Likelihood: Log-Location-Scale Based Distributions (Week 5 - Week 6)
-- __Chapter  9:__ Simulation-based (Bootstrap) Methods for Obtaining Confidence Intervals (Week 7)
-- __Chapter 10:__ Planning Studies to Obtain Reliability (Week 7)
-- __Chapter 11:__ Other Parametric Models (Week 7)
-- __Chapter 15:__ System Reliability Concepts; Data with Multiple Failure Modes (Week 8)
-- __Chapter 16:__ Analysis of Repairable System and Other Recurrence Data (Week 8)
-- __Chapter 17:__ Failure-Time Regression Analysis (Week 8 - Week 9)
-- __Chapter 18:__ Accelerated Test Models (Week 9)
-- __Chapter 19:__ Analyzing Accelerated Life Test Data (Week 9-10)
-- __Chapter 20:__ Planning Accelerated Life Tests (Week 10)
+- [__Chapter  1:__ Reliability Concepts and Reliability Data](https://afit.shinyapps.io/Lecture-Chapter-1) (Week 1)
+- [__Chapter  2:__ Models, Censoring and Likelihood for Time-to-Failure Data](https://afit.shinyapps.io/Lecture-Chapter-2) (Week 2)
+- [__Chapter  3:__ Non Parametric Estimation](https://afit.shinyapps.io/Lecture-Chapter-3) (Week 2 - 3)
+- [__Chapter  4:__ Failure-time Distributions](https://afit.shinyapps.io/Lecture-Chapter-4) (Week 4)
+- [__Chapter  5:__ Failure-time Distributions](https://afit.shinyapps.io/Lecture-Chapter-5) (Week 4)
+- [__Chapter  6:__ Probability Plotting and Choosing a Failure-Time Distribution](https://afit.shinyapps.io/Lecture-Chapter-6) (Week 4 - 5)
+- [__Chapter  7:__ Parametric Likelihood Concepts: Exponential Distribution](https://afit.shinyapps.io/Lecture-Chapter-7) (Week 5)
+- [__Chapter  8:__ Maximum Likelihood: Log-Location-Scale Based Distributions](https://afit.shinyapps.io/Lecture-Chapter-8) (Week 5 - Week 6)
+- [__Chapter  9:__ Simulation-based (Bootstrap) Methods for Obtaining Confidence Intervals](https://afit.shinyapps.io/Lecture-Chapter-9) (Week 7)
+- [__Chapter 10:__ Planning Studies to Obtain Reliability](https://afit.shinyapps.io/Lecture-Chapter-10) (Week 7)
+- [__Chapter 11:__ Other Parametric Models](https://afit.shinyapps.io/Lecture-Chapter-11) (Week 7)
+- [__Chapter 15:__ System Reliability Concepts; Data with Multiple Failure Modes](https://afit.shinyapps.io/Lecture-Chapter-15) (Week 8)
+- [__Chapter 16:__ Analysis of Repairable System and Other Recurrence Data](https://afit.shinyapps.io/Lecture-Chapter-16) (Week 8)
+- [__Chapter 17:__ Failure-Time Regression Analysis](https://afit.shinyapps.io/Lecture-Chapter-17) (Week 8 - Week 9)
+- [__Chapter 18:__ Accelerated Test Models](https://afit.shinyapps.io/Lecture-Chapter-18) (Week 9)
+- [__Chapter 19:__ Analyzing Accelerated Life Test Data](https://afit.shinyapps.io/Lecture-Chapter-19) (Week 9-10)
+- [__Chapter 20:__ Planning Accelerated Life Tests](https://afit.shinyapps.io/Lecture-Chapter-20) (Week 10)
 
 ## My teaching philosophy
 
