@@ -1,4 +1,4 @@
-## Welcome!
+## Welcome to STAT 687!
 
 ## Course Time and Location
 - MTWF 1500-1600 Bldg. 646 Rm. 216
@@ -13,10 +13,44 @@
 - MTWF 1400-1500 or by appt. (subject to change depending on student schedules).
 
 ## Course Objectives
-- The primary goal of this course is to introduce the concepts and techniques of life data analysis (i.e. reliability).  This course will be both theoretical (learning common theoretical models and concepts) and applied (actually fitting said models to data). 
+- The primary goal of this course is to introduce the concepts and techniques of life data analysis (i.e. reliability).  This course will be both theoretical (learning theoretical models and concepts) and applied (actually fitting said models to data). 
+
+- To achieve this goal, STAT-687 has three focus areas:
+
+    1) Understand concepts for computing statistical estimates from reliability data
+
+    2) Apply these concepts to various real-world data structures using R & RStudio
+
+    3) Communicate analysis techinques and results together using interactive documents and presentations
 
 ## Required Text
 - W. Q. Meeker, L. A. Escobar (1998) Statistical Methods for Reliability Data, Wiley, ISBN 978-0471143284.  
+
+## Additional Reliability Resources (Textbooks)
+
+[**Charles E. Ebeling**](http://www.waveland.com/browse.php?t=392&pgtitle=An+Introduction+to+Reliability+and+Maintainability+Engineering%3A+Second+Edition+by+Charles+E.+Ebeling)
+
+- An Introduction to Reliability and Maintainability Engineering, 2nd ed.</br>Waveland Press, Long Grove, IL 2010
+
+[**Marvin. Rausand and Arlnot Hoyland**](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=047147133X&bcsId=9457)
+
+- System Reliability Theory: Models, Statistical Methods & Applications 2nd ed.</br>Wiley-Interscience, Hoboken, NJ 2004
+
+## Additional Reliability Resources (online)
+
+**Reliability Engineering Resource Website** <br/>**<http://www.weibull.com/>**
+
+**Reliasoft Corporation Homepage** <br/>**<http://www.reliasoft.com/>**
+
+**NIST/SEMATECH e-Handbook of Statistical Methods** <br/> **<http://itl.nist.gov/div898/handbook/>**
+
+**Defense Systems Information Analysis Center** <br/> **<http://www.theriac.org/>**
+
+**Army Material Systems Analysis Activity** <br/> **<http://web.amsaa.army.mil/home.html/>**
+
+## Computer Programming
+
+
 
 ## Grading
 - Homework: 35% (approximately 6 assignments)
@@ -46,6 +80,17 @@
 - I realize that some of you may be new to coding or may have never coded before. Don't worry, you don't need an extensive background in R or \LaTeX to be successful in this course.  I've created several demo presentations to get you up to speed and I'm always willing to help out when needed.  The __[first demo presentation](https://afit.shinyapps.io/R-Installation/R-Installation.Rmd)__ walks you through the process of getting the R/RStudio tool-chain installed and ready for the course. 
 
 - The textbook references a well executed package, called SPLIDA, that was originally written by Dr. Meeker in the S-Plus language (SPLIDA stands for S Plus Life Data Anaysis).  The S-Plus language was later deprecated and replaced by R, so Dr. Meeker created an alpha version of the SPLIDA package, modified to run in R, called RSplida.  By Dr. Meeker's own admission, the effort to port SPLIDA to the R language was rushed and incomplete.  Therefore, I've been working with Dr. Meeker to update RSplida to an R package, currently called meekR.  This package is based on the textbook and will be used throughout the course.
+
+A primary goal of this course is to ensure you have the tools and knowledge to develop **reproducible & dynamic** data products to present your research
+
+Each of these tools will be used ths quarter
+
+- R Project for Statistical Computing
+- RStudio IDE
+- Mathjax
+- Pandoc Markdown
+- HTML~5~, CSS3, and JavaScript (don't need to know these - already built in!)
+
 
 ## A Few Important Dates
 - No Class:   2 July 2015 (AETC Family Day), 3 July 2014 (4th of July Observed) 
