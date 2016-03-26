@@ -1,102 +1,135 @@
 ## Welcome to STAT 687!
 
 ## Course Time and Location
-- MTWF 1500-1600 Bldg. 646 Rm. 216
+- MTWF 1000-1100 Bldg. 646 Rm. 220
 
 ## Instructor and Office
-- Maj Jason Freels, Bldg. 640, Rm. 105A
-- Email: __jason.freels@afit.edu__
-- Phone: 255-3636 x4676
-- Cell: (937) 430-6619
+- Maj Jason Freels, Bldg. 640, Rm. 205B
+- Email: <a href="mailto:jason.freels@afit.edu target="_top"><b>jason.freels@afit.edu</b></a>
+- Email: <a href="mailto:auburngrads@live.com target="_top"><b>auburngrads@live.com</b></a>
+- Phone: (937) 255-3636 ext. 4676
+- Cell:  (937) 430-6619
 
 ## Office hours
-- MTWF 1400-1500 or by appt. (subject to change depending on student schedules).
+- MTWF 1100-1200 or by appt. (subject to change depending on student schedules).
 
 ## Course Objectives
-- The primary goal of this course is to introduce the concepts and techniques of life data analysis (i.e. reliability).  This course will be both theoretical (learning theoretical models and concepts) and applied (actually fitting said models to data). 
+The purpose of this course is to introduce the mathematical concepts and methods for analyzing reliability (survivability, time-to-event) data.  
 
-- To achieve this goal, STAT-687 has three focus areas:
+Three focus areas:
 
-    1) Understand concepts for computing statistical estimates from reliability data
+1) Understand concepts for computing statistical estimates from reliability data
 
-    2) Apply these concepts to various real-world data structures using R & RStudio
+2) Apply these concepts to various real-world data structures using R & RStudio
 
-    3) Communicate analysis techinques and results together using interactive documents and presentations
+3) Communicate analysis techinques and results together using Markdown
 
 ## Required Text
-- W. Q. Meeker, L. A. Escobar (1998) Statistical Methods for Reliability Data, Wiley, ISBN 978-0471143284.  
+
+- [**William Q. Meeker and Luis A. Escobar**](http://www.public.iastate.edu/~stat533/)<br>Statistical Methods for Reliability Data, Wiley-Interscience, Hoboken, NJ 1998
 
 ## Additional Reliability Resources (Textbooks)
 
-[**Charles E. Ebeling**](http://www.waveland.com/browse.php?t=392&pgtitle=An+Introduction+to+Reliability+and+Maintainability+Engineering%3A+Second+Edition+by+Charles+E.+Ebeling)
+- [**Charles E. Ebeling**](http://www.waveland.com/browse.php?t=392&pgtitle=An+Introduction+to+Reliability+and+Maintainability+Engineering%3A+Second+Edition+by+Charles+E.+Ebeling)<br>An Introduction to Reliability and Maintainability Engineering, 2nd ed., Waveland Press, Long Grove, IL 2010
 
-- An Introduction to Reliability and Maintainability Engineering, 2nd ed.</br>Waveland Press, Long Grove, IL 2010
-
-[**Marvin. Rausand and Arlnot Hoyland**](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=047147133X&bcsId=9457)
-
-- System Reliability Theory: Models, Statistical Methods & Applications 2nd ed.</br>Wiley-Interscience, Hoboken, NJ 2004
+- [**Marvin. Rausand and Arlnot Hoyland**](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=047147133X&bcsId=9457)<br>System Reliability Theory: Models, Statistical Methods & Applications 2nd ed., Wiley-Interscience, Hoboken, NJ 2004
 
 ## Additional Reliability Resources (online)
 
-**Reliability Engineering Resource Website** <br/>**<http://www.weibull.com/>**
+- [__William Q. Meeker's Homepage__](http://www.public.iastate.edu/~wqmeeker/homepage.html)
 
-**Reliasoft Corporation Homepage** <br/>**<http://www.reliasoft.com/>**
+- [__Weibull.com - Reliability Engineering Resource Website__](http://www.weibull.com/)
 
-**NIST/SEMATECH e-Handbook of Statistical Methods** <br/> **<http://itl.nist.gov/div898/handbook/>**
+- [__Reliasoft Corporation Homepage__](http://www.reliasoft.com/)
 
-**Defense Systems Information Analysis Center** <br/> **<http://www.theriac.org/>**
+- [__NIST/SEMATECH e-Handbook of Statistical Methods__](http://itl.nist.gov/div898/handbook/)
 
-**Army Material Systems Analysis Activity** <br/> **<http://web.amsaa.army.mil/home.html/>**
+- [__Defense Systems Information Analysis Center__](http://www.theriac.org/)
 
-## Computer Programming
-
+- [__Army Material Systems Analysis Activity__](http://web.amsaa.army.mil/home.html/)
 
 
 ## Grading
-- Homework: 35% (approximately 6 assignments)
-- Exams: 35% 
+- Homework: 35%
+- Exams: 35%
 - Project: 30% 
 
-## Homework Assignments
+## Homework (5 - 6 Assignments)
+
 - Homework is assigned to help you learn the material.  If you don't do the assignments, you won't do well in the course.  You're encouraged to work together on the homework assignments, but everyone must complete and turn in their own work.  You won't learn much from copying someone's homework set, so don't do it.  You may use any other available resource to complete the assignments, however you must cite them.  Homework will be graded on completeness, (i.e. full credit will be given when a "complete" attempt to each problem is made) with one caveat, see __Exams__.  Solutions will be posted after the assignments are turned in.  Questions to the instructor, both in class and during office hours, are welcomed and encouraged.
 
-> __HW #0:__ In preparation for the course [__follow these steps__](https://afit.shinyapps.io/R-Installation/R-Installation.Rmd) to install and test the R/RStudio tool-chain
+- The homework process in this class
+
+    1) I will provide you a "knitr-shell" of the assignment 
+
+    2) You will enter your work into the shell
+
+    3) You ~~may~~ <u>should</u> work together to complete the assignments 
+
+    4) Everyone must turn-in their own work
+
+    5) Completed homework assignments will be emailed to me as a .Rmd file
+
+    6) I will compile the completed assignment on my machine
+
+    7) I will provide HW solutions after I have received everyone's assignment  
 
 ## Exams
 - I've chosen to modify the standard exam process in a way that I believe is (1) fair to you and (2) easy to grade.  After I receive your completed homework assignments and provide the solutions, I'll choose 3-4 exercises from the homework set to serve as exam questions.  These selected exercises will be evaluated more rigorously than the others and grade will serve as your exam score.  A comprehensive final exam take-home will be given during the final class meeting (due date TBD)
 
-## Project
-- The course project will develop your skills in applied reliability.  The goal of the project is to perform a reliability analysis using a data set that you create.  Exemptions may be made to use an existing data set on a case by case basis.  The project has three milestones:
+## Final Project
 
-    + Identify your problem set and briefly describe what you want to do (in writing).  Due by the end of week 3.
-    + Generate the data and run a preliminary analysis (i.e. make sure what you said you wanted to do is actually feasible).  Due by the end of week 7 - you want to have time to recover if things go south.
-    + Create a final shiny presentation and report your results during the final week of class.
+- The final project is intended to develop your skills in applying the reliability concepts learned in this course.  The goal of the project is to perform a reliability analysis using a data set that you create.  Exemptions may be made to allow the use of existing data sets on a case by case basis.
+
+- For this project you will...
+
+    + Form teams of 2-3 and select a problem 
+
+    + Gather data
+
+    + Analyze the data
+
+    + Present your results to the class in a shiny presentation
+
+- The project has three milestones:
+
+    1) Identify the problem and briefly describe what you plan to do<br>__Deliverable:__ 2 paragrahs (informal)<br>&emsp;&nbsp;__Due Date:__ End of Week 3
+    
+    2) Generate the data and run a preliminary analysis<br>__Deliverable:__ 2 paragrahs (informal)<br>&emsp;&nbsp;__Due Date:__ End of Week 7
+    
+    3) Present your results to the class<br>__Deliverable:__ A shiny presentation (must have 1+ shiny apps and can have <u>no more</u> than <u>six slides</u>)<br>&emsp;&nbsp;__Due Date:__ During the scheduled Finals time for this class
 
 - Your grade on the project will be based on the quality of your presentation and the quality of your analysis -- taking project difficulty into consideration.  So, don't make the project too hard (duh) or too easy. 
 
-## Software
-- In previous STAT 687 offerings, I allowed students to use any software package to complete their assignments.  This became difficult, for the students to complete their work and for me to grade them.  So, I've decided to require you to use the R programming language to complete and submit your assignments.
+## Software/Computer Programming
 
-- I realize that some of you may be new to coding or may have never coded before. Don't worry, you don't need an extensive background in R or \LaTeX to be successful in this course.  I've created several demo presentations to get you up to speed and I'm always willing to help out when needed.  The __[first demo presentation](https://afit.shinyapps.io/R-Installation/R-Installation.Rmd)__ walks you through the process of getting the R/RStudio tool-chain installed and ready for the course. 
+- A key component of this course is developing the skills and knowledge to create **reproducible & dynamic** data products to present your research
 
-- The textbook references a well executed package, called SPLIDA, that was originally written by Dr. Meeker in the S-Plus language (SPLIDA stands for S Plus Life Data Anaysis).  The S-Plus language was later deprecated and replaced by R, so Dr. Meeker created an alpha version of the SPLIDA package, modified to run in R, called RSplida.  By Dr. Meeker's own admission, the effort to port SPLIDA to the R language was rushed and incomplete.  Therefore, I've been working with Dr. Meeker to update RSplida to an R package, currently called meekR.  This package is based on the textbook and will be used throughout the course.
+- In previous offerings of this course, I allowed students to use any software package to complete their assignments.  This became difficult, for the students to complete their work and for me to grade them.  So, I've decided to require you to use the R programming language to complete and submit your assignments.
 
-A primary goal of this course is to ensure you have the tools and knowledge to develop **reproducible & dynamic** data products to present your research
+- Each of these tools will be used ths quarter
 
-Each of these tools will be used ths quarter
+    + R Project for Statistical Computing
+    
+    + RStudio IDE
 
-- R Project for Statistical Computing
-- RStudio IDE
-- Mathjax
-- Pandoc Markdown
-- HTML~5~, CSS3, and JavaScript (don't need to know these - already built in!)
+    + Mathjax
 
+    + Pandoc Markdown
+
+    + HTML~5~, CSS3, and JavaScript (don't need to know these - already built in!)
+
+- I realize that some of you may be new to coding or may have never coded before. Don't worry, you don't need an extensive background in R or \LaTeX to be successful in this course.  I've created several demo presentations to get you up to speed and I'm always willing to help out when needed.  The __[first demo presentation](https://afit.shinyapps.io/r-intro-installation)__ walks you through the process of getting the R/RStudio tool-chain installed and ready for the course. 
+
+- The textbook references a well executed package, called SPLIDA, that was originally written by Dr. Meeker in the S-Plus language (SPLIDA stands for S Plus Life Data Anaysis).  The S-Plus language has largely been replaced by R, so Dr. Meeker created an alpha version of the SPLIDA package, modified to run in R, called RSplida.  By Dr. Meeker's own admission, the effort to port SPLIDA to the R language was rushed and incomplete.  Therefore, I've been working with Dr. Meeker to update RSplida to an R package, currently called SMRD.  This package is based on the textbook and will be used throughout the course.
+
+- Throughout the course I'll be providing you with LOTS of code that you can copy/paste and use
 
 ## A Few Important Dates
-- No Class:   2 July 2015 (AETC Family Day), 3 July 2014 (4th of July Observed) 
+- No Class:   18 January 2016 (Columbus Day), 15 February 2016 (President's Day) 
 
 ## Grading
-- [1.00 - 0.93]: A
+- (1.00 - 0.93]: A
 - (0.93 - 0.90]: A-
 - (0.90 - 0.87]: B+
 - (0.87 - 0.83]: B
@@ -122,15 +155,14 @@ Each of these tools will be used ths quarter
 - [__Chapter 19: Analyzing Accelerated Life Test Data__](https://afit.shinyapps.io/smrd-chapter-19) (Week 9-10)
 - [__Chapter 20: Planning Accelerated Life Tests__](https://afit.shinyapps.io/smrd-chapter-20) (Week 10)
 
-## My teaching philosophy
+## My Teaching Philosophy
 
 - As AFIT graduates, you'll be expected to know how to approach and solve real-world problems AND present your results in a meaningful way so that decision makers can make defensible decisions.  
 
 - As AFIT instructors, we do a disservice to our students by not teaching new and improved ways to produce and share your results.  Further, we do a disservice by teaching you to solve problems using tools that you won't have access to after leaving AFIT.  Therefore, I re-built this course using the R/RStudio tool-chain to help you produce better results...faster.
 
 ## Challenge your instructor
-- If you can't trip me up, you're not trying.  Discussion leads to a more interesting class, so questions are always good.
+- If you can't trip me up from time to time, you're not trying.  Discussion leads to a more interesting class, so questions are always good.
 
 ## "How not to do Reliability"
 - Occasionally, we'll discuss the results of applying poor reliability principles via real world examples.
-
