@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="STAT 687 - Math of Reliability I : A repository of course materials">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>STAT 687 - Math of Reliability I</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Auburngrads/stat-687">View on GitHub</a>
+
+          <h1 id="project_title">STAT 687 - Math of Reliability I</h1>
+          <h2 id="project_tagline">A repository of course materials</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Auburngrads/stat-687/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Auburngrads/stat-687/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="welcome-to-stat-687" class="anchor" href="#welcome-to-stat-687" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to STAT 687!</h2>
+
+<h2>
+<a id="course-time-and-location" class="anchor" href="#course-time-and-location" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Course Time and Location</h2>
+
+<ul>
+<li>MTWF 1000-1100 Bldg. 646 Rm. 220</li>
+</ul>
+
+<h2>
+<a id="instructor-and-office" class="anchor" href="#instructor-and-office" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instructor and Office</h2>
+
+<ul>
+<li>Maj Jason Freels, Bldg. 640, Rm. 205B</li>
+<li>Email: <a href="mailto:jason.freels@afit.edu%20target="><b><a href="mailto:jason.freels@afit.edu">jason.freels@afit.edu</a></b></a>
+</li>
+<li>Email: <a href="mailto:auburngrads@live.com%20target="><b><a href="mailto:auburngrads@live.com">auburngrads@live.com</a></b></a>
+</li>
+<li>Phone: (937) 255-3636 ext. 4676</li>
+<li>Cell:  (937) 430-6619</li>
+</ul>
+
+<h2>
+<a id="office-hours" class="anchor" href="#office-hours" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Office hours</h2>
+
+<ul>
+<li>MTWF 1100-1200 or by appt. (subject to change depending on student schedules).</li>
+</ul>
+
+<h2>
+<a id="course-objectives" class="anchor" href="#course-objectives" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Course Objectives</h2>
+
+<p>The purpose of this course is to introduce the mathematical concepts and methods for analyzing reliability (survivability, time-to-event) data.  </p>
+
+<p>Three focus areas:</p>
+
+<p>1) Understand concepts for computing statistical estimates from reliability data</p>
+
+<p>2) Apply these concepts to various real-world data structures using R &amp; RStudio</p>
+
+<p>3) Communicate analysis techinques and results together using Markdown</p>
+
+<h2>
+<a id="required-text" class="anchor" href="#required-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Required Text</h2>
+
+<ul>
+<li>
+<a href="http://www.public.iastate.edu/%7Estat533/"><strong>William Q. Meeker and Luis A. Escobar</strong></a><br>Statistical Methods for Reliability Data, Wiley-Interscience, Hoboken, NJ 1998</li>
+</ul>
+
+<h2>
+<a id="additional-reliability-resources-textbooks" class="anchor" href="#additional-reliability-resources-textbooks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Reliability Resources (Textbooks)</h2>
+
+<ul>
+<li><p><a href="http://www.waveland.com/browse.php?t=392&amp;pgtitle=An+Introduction+to+Reliability+and+Maintainability+Engineering%3A+Second+Edition+by+Charles+E.+Ebeling"><strong>Charles E. Ebeling</strong></a><br>An Introduction to Reliability and Maintainability Engineering, 2nd ed., Waveland Press, Long Grove, IL 2010</p></li>
+<li><p><a href="http://bcs.wiley.com/he-bcs/Books?action=index&amp;itemId=047147133X&amp;bcsId=9457"><strong>Marvin. Rausand and Arlnot Hoyland</strong></a><br>System Reliability Theory: Models, Statistical Methods &amp; Applications 2nd ed., Wiley-Interscience, Hoboken, NJ 2004</p></li>
+</ul>
+
+<h2>
+<a id="additional-reliability-resources-online" class="anchor" href="#additional-reliability-resources-online" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Reliability Resources (online)</h2>
+
+<ul>
+<li><p><a href="http://www.public.iastate.edu/%7Ewqmeeker/homepage.html"><strong>William Q. Meeker's Homepage</strong></a></p></li>
+<li><p><a href="http://www.weibull.com/"><strong>Weibull.com - Reliability Engineering Resource Website</strong></a></p></li>
+<li><p><a href="http://www.reliasoft.com/"><strong>Reliasoft Corporation Homepage</strong></a></p></li>
+<li><p><a href="http://itl.nist.gov/div898/handbook/"><strong>NIST/SEMATECH e-Handbook of Statistical Methods</strong></a></p></li>
+<li><p><a href="http://www.theriac.org/"><strong>Defense Systems Information Analysis Center</strong></a></p></li>
+<li><p><a href="http://web.amsaa.army.mil/home.html/"><strong>Army Material Systems Analysis Activity</strong></a></p></li>
+</ul>
+
+<h2>
+<a id="grading" class="anchor" href="#grading" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Grading</h2>
+
+<ul>
+<li>Homework: 35%</li>
+<li>Exams: 35%</li>
+<li>Project: 30% </li>
+</ul>
+
+<h2>
+<a id="homework-5---6-assignments" class="anchor" href="#homework-5---6-assignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Homework (5 - 6 Assignments)</h2>
+
+<ul>
+<li><p>Homework is assigned to help you learn the material.  If you don't do the assignments, you won't do well in the course.  You're encouraged to work together on the homework assignments, but everyone must complete and turn in their own work.  You won't learn much from copying someone's homework set, so don't do it.  You may use any other available resource to complete the assignments, however you must cite them.  Homework will be graded on completeness, (i.e. full credit will be given when a "complete" attempt to each problem is made) with one caveat, see <strong>Exams</strong>.  Solutions will be posted after the assignments are turned in.  Questions to the instructor, both in class and during office hours, are welcomed and encouraged.</p></li>
+<li>
+<p>The homework process in this class</p>
+
+<p>1) I will provide you a "knitr-shell" of the assignment </p>
+
+<p>2) You will enter your work into the shell</p>
+
+<p>3) You <del>may</del> should work together to complete the assignments </p>
+
+<p>4) Everyone must turn-in their own work</p>
+
+<p>5) Completed homework assignments will be emailed to me as a .Rmd file</p>
+
+<p>6) I will compile the completed assignment on my machine</p>
+
+<p>7) I will provide HW solutions after I have received everyone's assignment  </p>
+</li>
+</ul>
+
+<h2>
+<a id="exams" class="anchor" href="#exams" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exams</h2>
+
+<ul>
+<li>I've chosen to modify the standard exam process in a way that I believe is (1) fair to you and (2) easy to grade.  After I receive your completed homework assignments and provide the solutions, I'll choose 3-4 exercises from the homework set to serve as exam questions.  These selected exercises will be evaluated more rigorously than the others and grade will serve as your exam score.  A comprehensive final exam take-home will be given during the final class meeting (due date TBD)</li>
+</ul>
+
+<h2>
+<a id="final-project" class="anchor" href="#final-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final Project</h2>
+
+<ul>
+<li><p>The final project is intended to develop your skills in applying the reliability concepts learned in this course.  The goal of the project is to perform a reliability analysis using a data set that you create.  Exemptions may be made to allow the use of existing data sets on a case by case basis.</p></li>
+<li>
+<p>For this project you will...</p>
+
+<ul>
+<li><p>Form teams of 2-3 and select a problem </p></li>
+<li><p>Gather data</p></li>
+<li><p>Analyze the data</p></li>
+<li><p>Present your results to the class in a shiny presentation</p></li>
+</ul>
+</li>
+<li>
+<p>The project has three milestones:</p>
+
+<p>1) Identify the problem and briefly describe what you plan to do<br><strong>Deliverable:</strong> 2 paragrahs (informal)<br>  <strong>Due Date:</strong> End of Week 3</p>
+
+<p>2) Generate the data and run a preliminary analysis<br><strong>Deliverable:</strong> 2 paragrahs (informal)<br>  <strong>Due Date:</strong> End of Week 7</p>
+
+<p>3) Present your results to the class<br><strong>Deliverable:</strong> A shiny presentation (must have 1+ shiny apps and can have no more than six slides)<br>  <strong>Due Date:</strong> During the scheduled Finals time for this class</p>
+</li>
+<li><p>Your grade on the project will be based on the quality of your presentation and the quality of your analysis -- taking project difficulty into consideration.  So, don't make the project too hard (duh) or too easy. </p></li>
+</ul>
+
+<h2>
+<a id="softwarecomputer-programming" class="anchor" href="#softwarecomputer-programming" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software/Computer Programming</h2>
+
+<ul>
+<li><p>A key component of this course is developing the skills and knowledge to create <strong>reproducible &amp; dynamic</strong> data products to present your research</p></li>
+<li><p>In previous offerings of this course, I allowed students to use any software package to complete their assignments.  This became difficult, for the students to complete their work and for me to grade them.  So, I've decided to require you to use the R programming language to complete and submit your assignments.</p></li>
+<li>
+<p>Each of these tools will be used ths quarter</p>
+
+<ul>
+<li><p>R Project for Statistical Computing</p></li>
+<li><p>RStudio IDE</p></li>
+<li><p>Mathjax</p></li>
+<li><p>Pandoc Markdown</p></li>
+<li><p>HTML~5~, CSS3, and JavaScript (don't need to know these - already built in!)</p></li>
+</ul>
+</li>
+<li><p>I realize that some of you may be new to coding or may have never coded before. Don't worry, you don't need an extensive background in R or \LaTeX to be successful in this course.  I've created several demo presentations to get you up to speed and I'm always willing to help out when needed.  The <strong><a href="https://afit.shinyapps.io/r-intro-installation">first demo presentation</a></strong> walks you through the process of getting the R/RStudio tool-chain installed and ready for the course. </p></li>
+<li><p>The textbook references a well executed package, called SPLIDA, that was originally written by Dr. Meeker in the S-Plus language (SPLIDA stands for S Plus Life Data Anaysis).  The S-Plus language has largely been replaced by R, so Dr. Meeker created an alpha version of the SPLIDA package, modified to run in R, called RSplida.  By Dr. Meeker's own admission, the effort to port SPLIDA to the R language was rushed and incomplete.  Therefore, I've been working with Dr. Meeker to update RSplida to an R package, currently called SMRD.  This package is based on the textbook and will be used throughout the course.</p></li>
+<li><p>Throughout the course I'll be providing you with LOTS of code that you can copy/paste and use</p></li>
+</ul>
+
+<h2>
+<a id="a-few-important-dates" class="anchor" href="#a-few-important-dates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Few Important Dates</h2>
+
+<ul>
+<li>No Class:   18 January 2016 (Columbus Day), 15 February 2016 (President's Day) </li>
+</ul>
+
+<h2>
+<a id="grading-1" class="anchor" href="#grading-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Grading</h2>
+
+<ul>
+<li>(1.00 - 0.93]: A</li>
+<li>(0.93 - 0.90]: A-</li>
+<li>(0.90 - 0.87]: B+</li>
+<li>(0.87 - 0.83]: B</li>
+<li>(0.83 - 0.80]: B-</li>
+<li>(0.80 - 0.77]: C</li>
+</ul>
+
+<h2>
+<a id="approximate-course-outline" class="anchor" href="#approximate-course-outline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Approximate Course Outline</h2>
+
+<ul>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-1"><strong>Chapter  1: Reliability Concepts and Reliability Data</strong></a> (Week 1)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-2"><strong>Chapter  2: Models, Censoring and Likelihood for Time-to-Failure Data</strong></a> (Week 2)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-3"><strong>Chapter  3: Non Parametric Estimation</strong></a> (Week 2 - 3)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-4"><strong>Chapter  4: Failure-time Distributions</strong></a> (Week 4)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-5"><strong>Chapter  5: Failure-time Distributions</strong></a> (Week 4)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-6"><strong>Chapter  6: Probability Plotting and Choosing a Failure-Time Distribution</strong></a> (Week 4 - 5)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-7"><strong>Chapter  7: Parametric Likelihood Concepts: Exponential Distribution</strong></a> (Week 5)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-8"><strong>Chapter  8: Maximum Likelihood: Log-Location-Scale Based Distributions</strong></a> (Week 5 - Week 6)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-9"><strong>Chapter  9: Simulation-based (Bootstrap) Methods for Obtaining Confidence Intervals</strong></a> (Week 7)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-10"><strong>Chapter 10: Planning Studies to Obtain Reliability</strong></a> (Week 7)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-11"><strong>Chapter 11: Other Parametric Models</strong></a> (Week 7)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-15"><strong>Chapter 15: System Reliability Concepts; Data with Multiple Failure Modes</strong></a> (Week 8)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-16"><strong>Chapter 16: Analysis of Repairable System and Other Recurrence Data</strong></a> (Week 8)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-17"><strong>Chapter 17: Failure-Time Regression Analysis</strong></a> (Week 8 - Week 9)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-18"><strong>Chapter 18: Accelerated Test Models</strong></a> (Week 9)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-19"><strong>Chapter 19: Analyzing Accelerated Life Test Data</strong></a> (Week 9-10)</li>
+<li>
+<a href="https://afit.shinyapps.io/smrd-chapter-20"><strong>Chapter 20: Planning Accelerated Life Tests</strong></a> (Week 10)</li>
+</ul>
+
+<h2>
+<a id="my-teaching-philosophy" class="anchor" href="#my-teaching-philosophy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My Teaching Philosophy</h2>
+
+<ul>
+<li><p>As AFIT graduates, you'll be expected to know how to approach and solve real-world problems AND present your results in a meaningful way so that decision makers can make defensible decisions.  </p></li>
+<li><p>As AFIT instructors, we do a disservice to our students by not teaching new and improved ways to produce and share your results.  Further, we do a disservice by teaching you to solve problems using tools that you won't have access to after leaving AFIT.  Therefore, I re-built this course using the R/RStudio tool-chain to help you produce better results...faster.</p></li>
+</ul>
+
+<h2>
+<a id="challenge-your-instructor" class="anchor" href="#challenge-your-instructor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Challenge your instructor</h2>
+
+<ul>
+<li>If you can't trip me up from time to time, you're not trying.  Discussion leads to a more interesting class, so questions are always good.</li>
+</ul>
+
+<h2>
+<a id="how-not-to-do-reliability" class="anchor" href="#how-not-to-do-reliability" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>"How not to do Reliability"</h2>
+
+<ul>
+<li>Occasionally, we'll discuss the results of applying poor reliability principles via real world examples.</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">STAT 687 - Math of Reliability I maintained by <a href="https://github.com/Auburngrads">Auburngrads</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
