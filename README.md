@@ -1,3 +1,5 @@
+# Course Syllabus
+
 ## Welcome to STAT 687!
 
 ## Course Time and Location
