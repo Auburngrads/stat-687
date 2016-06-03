@@ -1,4 +1,4 @@
-# Course Syllabus
+# <font color='red'>Course Syllabus</font>
 
 ## Welcome to STAT 687!
 
